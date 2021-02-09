@@ -1,3 +1,5 @@
+//strings scala
+
 package app.structures
 
 object strings {
@@ -82,10 +84,6 @@ object strings {
     //char in a string
     var char1 = "hello world".charAt(3)
     println(char1)
-
-
-
-
 
   }
 
