@@ -3,7 +3,7 @@
 2. numbers
 3. controls structures
 4. clases & properties
-5. Methods
+5. methods
 6. objetcs
 7. packaging and imports
 8. traits
