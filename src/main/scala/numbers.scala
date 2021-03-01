@@ -2,10 +2,12 @@
 
 package app.structures
 
+//singleton object
 object numbers {
 
   def main(args: Array[String]): Unit = {
     //ranges of Scala's types
+    //------------------------------
     println(Short.MinValue)
     println(Short.MaxValue)
     println(Int.MinValue)
@@ -64,6 +66,7 @@ object numbers {
 
     //large numbers
     //create a BigInt
+    //------------------------------
     var num8 = BigInt(123456789)
     var num9 = BigDecimal(123456.789)
     println(num8 + " and num8 + num 9: " + num8+num9)
@@ -72,14 +75,17 @@ object numbers {
     println(num9.isValidInt)
 
     //generating ramdonm numbers
+    //------------------------------
     var ramdomNumber1 = scala.util.Random
     println(ramdomNumber1.nextInt())
     println(ramdomNumber1.nextInt)
     println(ramdomNumber1.nextDouble())
     println(ramdomNumber1.nextFloat())
     //create an object
+    //------------------------------
     var ramdomNumber2 =  new scala.util.Random(100)
     //random range
+    //------------------------------
     var range = 0 to ramdomNumber2.nextInt(20)
     println(ramdomNumber2.nextInt())
     println(range)
