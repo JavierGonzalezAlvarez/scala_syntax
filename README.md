@@ -1,10 +1,10 @@
 # Scala syntax
-1. strings
-2. numbers
-3. controls structures
-4. clases & properties
-5. methods
-6. objetcs
+1. strings - done
+2. numbers - done
+3. controls structures - done
+4. clases & properties - done
+5. methods - done
+6. objetcs - done
 7. packaging and imports
 8. traits
 9. functional programing
