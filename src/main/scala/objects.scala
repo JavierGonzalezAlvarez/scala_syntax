@@ -1,3 +1,5 @@
+//objects.scala
+
 package app.structures
 
 object objects extends App { //(1)

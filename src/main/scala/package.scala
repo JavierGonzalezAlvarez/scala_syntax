@@ -1,3 +1,5 @@
+//objects.scala
+
 package app
 
 package object structures {
@@ -11,8 +13,5 @@ package object structures {
     type Margins = Value
     val arriba, abajo, izquierda, derecha = Value
   }
-
-
-
 
 }

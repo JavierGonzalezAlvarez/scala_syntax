@@ -1,5 +1,5 @@
+//class_properties
 package app.structures
-
 object class_properties {
 
   def main(args: Array[String]): Unit = {
@@ -24,7 +24,6 @@ object class_properties {
     val table1 = new Tables1("SoftTable", "4 legs")
     println(table1.name)
     println(table1.features)
-
 
     //control de visibility of the constructor fields
     //-----------------------------------------------

@@ -1,3 +1,4 @@
+//controls_structures
 package app.structures
 
 object controls_structures {

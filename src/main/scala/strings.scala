@@ -1,7 +1,5 @@
 //strings scala
-
 package app.structures
-
 object strings {
 
   def main(args: Array[String]): Unit = {
@@ -17,10 +15,11 @@ object strings {
     val s = "hello"
     val h = " world"
     val c = s + h
-    print(c)
+    println("concatenate: ", c)
 
     //iterate
-    "javier".foreach(println)
+    "javier".foreach(print)
+    println()
 
     //string as a sequence of chars
     for (c <- "javier") {
@@ -36,15 +35,19 @@ object strings {
 
     //drop chars on the left
     "javier".drop(2).foreach(println)
+    println()
 
     //take 3 chars n the right
     "javier".take(3).foreach(print)
+    println()
 
     //capitalize
     "javier".capitalize.foreach(print)
+    println()
 
     //on the left an right
     "javier".drop(1).take(3).foreach(println)
+    println()
 
     //comparation of string
     val str1 = "hello"
@@ -54,7 +57,7 @@ object strings {
 
     //multiple strings
     val str3 = """more than one string"""
-    println(str3)
+    println("multiple strings: ", str3)
 
     //margin
     val str4 =
@@ -97,7 +100,7 @@ object strings {
 
     //find allin in a list
     val match2 = numPattern.findAllIn(str7).toList
-    println(match2)
+    println("find allin in a list: ", match2)
 
     //replacing patterns in a string
     val str8 = "number 256 in Oxford street 78".
@@ -112,7 +115,7 @@ object strings {
 
     //char in a string
     var char1 = "hello world".charAt(3)
-    println(char1)
+    println("char in a string", char1)
 
   }
 

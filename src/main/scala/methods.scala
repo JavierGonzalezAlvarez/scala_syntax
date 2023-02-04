@@ -1,5 +1,5 @@
+//methods.scala
 package app.structures
-
 import javax.sound.sampled.{LineUnavailableException, UnsupportedAudioFileException}
 import scala.io.Source
 
