@@ -131,13 +131,6 @@ object numbers {
     val formatter3 = java.text.NumberFormat.getCurrencyInstance
     println(formatter3.format(76334.34))  //73.334,34 €
 
-    //
-
-
-
-
-
-
   }
 
 }

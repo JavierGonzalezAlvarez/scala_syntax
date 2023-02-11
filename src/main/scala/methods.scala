@@ -165,3 +165,32 @@ object methods {
 
 }
 
+/*
+output
+
+isPrivate: true
+isPublic:false
+protected
+Hi I'm a dog
+Hi I'm a dog
+Hi I'm a dog
+hello world
+javier
+24
+20
+nacho
+javier
+carla
+2 legs
+3 legs
+4 legs
+10
+24
+63
+buffer: 116
+file
+------
+testing io.source
+line 2
+line 3
+ */

@@ -77,3 +77,17 @@ object objects extends App { //(1)
   println(pi)
 
 }
+
+/*
+output
+
+the class: class scala.collection.immutable.ArraySeq$ofInt
+the class: class scala.collection.immutable.Nil$
+I couldn't get your name
+sum1
+sum2
+produce1
+produce1
+23
+derecha[Lapp.structures.objects$Building;@475530b9
+ */

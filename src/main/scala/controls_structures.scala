@@ -174,7 +174,7 @@ object controls_structures {
       val pp = s.toInt
     } catch {
       case e: Exception => e.printStackTrace
-    }
+    } // java.lang.NumberFormatException: For input string: "hello"
 
     // while loop execution
     //must be inmutable
@@ -195,3 +195,77 @@ object controls_structures {
   }
 
 }
+
+/*
+output
+
+it's else()
+List(Javier, Peter, Seat)
+ship
+magazine
+hose
+SHIP
+MAGAZINE
+HOSE
+0 is ship
+1 is magazine
+2 is hose
+0 is ship
+1 is magazine
+2 is hose
+1
+2
+3
+4
+5
+6
+7
+(key: name, value: javier)
+(key: lname, value: gonzalez)
+ship
+magazine
+hose
+SHIP
+MAGAZINE
+HOSE
+SHIP
+MAGAZINE
+HOSE
+1
+2
+3
+4
+5
+2
+4
+Vector(1, 2, 3, 4, 5)
+i = 1, j = 1
+i = 1, j = 2
+i = 2, j = 1
+i = 2, j = 2
+i = 3, j = 1
+i = 3, j = 2
+i = 1, j = 2
+i = 1, j = 3
+i = 2, j = 2
+i = 2, j = 3
+2
+4
+6
+8
+10
+February
+otro
+July
+even
+It's not an Integer
+2
+a1 is: 1
+a1 is: 2
+a1 is: 3
+a1 is: 4
+a2 is: 1
+a2 is: 2
+a2 is: 3
+a2 is: 4
+ */
